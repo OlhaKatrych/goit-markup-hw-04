@@ -521,21 +521,27 @@ justify-content: center;
     fill: currentColor;
 }
 
+
 .customers-link:hover {
 
-    border-color: var(--color-ocean);
+    border-color: var(--color-ocean);  
 }
 
 .customers-icon:hover {
 
-    fill: var(--color-ocean);
+    color: var(--color-ocean);
 }
 
 .customers-link:focus {
 
     border-color: var(--color-ocean);
+    
 }
 
+.customers-link:focus {
+
+    color: var(--color-ocean);
+}
 .customers-icon:focus {
 
     fill: var(--color-ocean);
