@@ -493,6 +493,26 @@ justify-content: center;
     background-color: var(--color-ocean);
 }
 
+/*Customers section*/
+
+.customers-list {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.customers-link {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 88px;
+    background-color: #E5E5E5;;
+}
+
 /*Footer section*/
 
 .footer-section {
