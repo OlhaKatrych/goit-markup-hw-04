@@ -647,6 +647,16 @@ justify-content: center;
     border-radius: 50%;
 }
 
+.socials-link-footer:hover {
+
+    background-color: var(--color-green);
+}
+
+.socials-link-footer:focus {
+
+    background-color: var(--color-green);
+}
+
                                     /*PORTFOLIO*/
 
 .portfolio-section {
