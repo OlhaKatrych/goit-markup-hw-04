@@ -616,11 +616,6 @@ justify-content: center;
     margin-right: 120px;
 }
 
-.social-container {
-
- 
- 
-}
 .social-text {
 
 
@@ -630,6 +625,15 @@ justify-content: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+}
+
+.socials-footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 0;
 }
 
                                     /*PORTFOLIO*/
