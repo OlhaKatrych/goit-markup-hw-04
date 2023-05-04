@@ -405,6 +405,9 @@ justify-content: center;
     
     
     background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     
 
@@ -436,6 +439,7 @@ justify-content: center;
         letter-spacing: 0.02em;
         color: #434455;
         text-align: center;
+        padding-bottom: 8px;
         
 }
 
@@ -448,7 +452,40 @@ justify-content: center;
 
 .worker-four-pages {
 
-    padding: 32px 16px;
+    padding: 32px 0;
+}
+
+/*Socials icons*/
+
+.socials {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 0 16px;
+
+}
+
+.socials-link {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-iris);
+    border-radius: 50%;
+}
+
+.socials-link:hover {
+
+    background-color: var(--color-ocean);
+}
+
+.socials-link:focus {
+
+    background-color: var(--color-ocean);
 }
 
 /*Footer section*/
