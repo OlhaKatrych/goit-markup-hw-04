@@ -527,6 +527,11 @@ justify-content: center;
     border-color: var(--color-ocean);  
 }
 
+.customers-link:hover {
+
+    color: var(--color-ocean);
+}
+
 .customers-icon:hover {
 
     fill: var(--color-ocean);
