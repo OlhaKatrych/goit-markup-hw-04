@@ -529,7 +529,7 @@ justify-content: center;
 
 .customers-icon:hover {
 
-    color: var(--color-ocean);
+    fill: var(--color-ocean);
 }
 
 .customers-link:focus {
