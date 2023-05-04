@@ -367,7 +367,7 @@ justify-content: center;
         
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11;
+        line-height: 1.1;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
@@ -510,7 +510,35 @@ justify-content: center;
     align-items: center;
     width: 168px;
     height: 88px;
-    background-color: #E5E5E5;;
+    background-color: #E5E5E5;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    color: var(--color-light-slate);
+}
+
+.customers-icon {
+
+    fill: currentColor;
+}
+
+.customers-link:hover {
+
+    border-color: var(--color-ocean);
+}
+
+.customers-icon:hover {
+
+    fill: var(--color-ocean);
+}
+
+.customers-link:focus {
+
+    border-color: var(--color-ocean);
+}
+
+.customers-icon:focus {
+
+    fill: var(--color-ocean);
 }
 
 /*Footer section*/
