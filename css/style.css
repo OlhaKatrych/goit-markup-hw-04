@@ -569,7 +569,6 @@ justify-content: center;
     align-items: baseline;
 }
 
-
 .logo-footer {
 
         display: inline-block;
@@ -581,8 +580,8 @@ justify-content: center;
         text-transform: uppercase;
         padding-top: 1.5px;
         padding-bottom: 1.5px;
-        margin-bottom: 16px;
         color: var(--color-iris);
+        margin-bottom: 16px;
 }
 
 
@@ -596,6 +595,7 @@ justify-content: center;
         letter-spacing: 0.03em;
         color: #F4F4FD;
         text-transform: uppercase;
+        
 
 }
 
@@ -608,6 +608,12 @@ justify-content: center;
         letter-spacing: 0.02em;
         color: #F4F4FD;
         width: 264px;
+}
+
+.logo-paragraph {
+
+    margin: 0;
+    margin-right: 120px;
 }
 
                                     /*PORTFOLIO*/
