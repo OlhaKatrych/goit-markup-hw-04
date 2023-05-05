@@ -106,13 +106,13 @@ body {
  .list {
 
      list-style: none;
-     padding: 0;
-     margin: 0;
+     
  }
 
  h1,h2,h3,h4,h5,h6,p,ul {
 
     margin: 0;
+    padding: 0;
  }
 
  img {
@@ -163,6 +163,12 @@ body {
    
 }
 
+.header-contacts-list {
+
+    display: flex;
+    list-style: none;
+}
+
 .contacts-link:hover,
 .contacts-link:focus {
 
@@ -206,6 +212,7 @@ body {
 
 .header-nav-list {
 
+    display: flex;
     gap: 40px;
     
 
@@ -221,9 +228,6 @@ body {
     margin-right: 0;
 }
 
-.list {
-    display: flex;
-}
 
 .list-item {
 
@@ -307,7 +311,7 @@ body {
 
 .features-cards-set {
 
-    
+    display: flex;
     gap: var(--indent);
 }
 
@@ -378,7 +382,7 @@ justify-content: center;
 
 .images-cards-set {
 
-    
+    display: flex;
     gap: var(--indent);
 }
 
@@ -439,12 +443,13 @@ justify-content: center;
         letter-spacing: 0.02em;
         color: #434455;
         text-align: center;
-        padding-bottom: 8px;
-        
+        margin-bottom: 8px;
+               
 }
 
 .team-list {
 
+    display: flex;
     gap: var(--indent);
     border-radius: 0px 0px 4px 4px;
 }
@@ -461,10 +466,9 @@ justify-content: center;
 
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 24px;
-    padding: 0 16px;
-
+    
+    
 }
 
 .socials-link {
@@ -690,6 +694,7 @@ justify-content: center;
 
 .portfolio-btn-list{
 
+    display: flex;
     justify-content: center;
     margin-bottom: 72px;
     gap: var(--indent);
@@ -698,6 +703,7 @@ justify-content: center;
 
 .portfolio-cards{
 
+    display: flex;
     flex-wrap: wrap;
     row-gap: var(--vertical);
     column-gap: var(--indent);
