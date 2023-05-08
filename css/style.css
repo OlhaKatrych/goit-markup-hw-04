@@ -526,31 +526,15 @@ justify-content: center;
 }
 
 
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus {
 
     border-color: var(--color-ocean);  
-}
-
-.customers-link:hover {
-
     color: var(--color-ocean);
 }
 
-.customers-icon:hover {
 
-    fill: var(--color-ocean);
-}
-
-.customers-link:focus {
-
-    border-color: var(--color-ocean);
-    
-}
-
-.customers-link:focus {
-
-    color: var(--color-ocean);
-}
+.customers-icon:hover,
 .customers-icon:focus {
 
     fill: var(--color-ocean);
